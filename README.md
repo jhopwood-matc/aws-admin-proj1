@@ -15,11 +15,4 @@ To understand the overall architecture of the deployment, please refer to the fo
 
 ![Architecture Diagram](architecture-diagram.png)
 
-## Getting Started
 
-To deploy the application, follow these steps:
-
-1. Ensure you have AWS CLI configured with the necessary permissions.
-2. Deploy the network stack:
-   ```bash
-   aws cloudformation deploy --template-file network-stack.yaml --stack-name my-network-stack
